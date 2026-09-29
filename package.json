@@ -1,0 +1,24 @@
+{
+  "name": "school-management-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --runInBand",
+    "seed": "node seed.js",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "find-duplicates": "node scripts/findDuplicates.js",
+    "smoke": "node scripts/smokeTest.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
